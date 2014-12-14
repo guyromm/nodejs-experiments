@@ -1,0 +1,11 @@
+<% extend 'layout' %>
+
+<div id="<%- @id %>">
+	<% include 'list' %>
+</div>
+
+<% block 'footer-info' : %>
+	<div class="right">page: main</div>
+ 	<h1><%- @upperHelper @title %></h1>
+	<div class="counter">views: <%- @counter %></div>
+<% end %>

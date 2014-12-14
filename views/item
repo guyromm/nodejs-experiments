@@ -1,0 +1,9 @@
+<% extend 'layout' %>
+<h4>retrieved object</h4>
+<%- JSON.stringify @obj %><br />
+<dl>
+<% for k,v of @obj : %>
+<dt><%=k%></dt>
+<dd><%=v%></dd>
+<% end %>
+</dl>

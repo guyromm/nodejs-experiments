@@ -1,0 +1,11 @@
+<% extend 'layout' %>
+
+<div id="<%- @id %>">
+<h4><%=@tot_rows%> total rows</h4>
+<ul>
+<% for doc in @docs : %>
+   <li><a href="/get/<%=doc.id%>"><%= doc.id %></a> <%= JSON.stringify doc.value.value %> ; <%=doc.value.counter%></li>
+<% end %>
+</ul>
+</div>
+
