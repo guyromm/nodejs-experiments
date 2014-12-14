@@ -45,7 +45,13 @@ server.route
                         strg = JSON.stringify doc
                         id = http_body.id
                         return reply ('Hello, '+id+'\n'+request.params.name+'!\n'+strg+'\n')
-
+server.route
+        method: 'GET'
+        path: '/static/{param*}'
+        handler:
+                directory:
+                        path: 'static'
+                        listing: true
 server.route
         method: 'GET'
         path: '/get/{id}'

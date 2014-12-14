@@ -1,0 +1,18 @@
+{
+  "name": "vrealtor",
+  "version": "0.0.0",
+  "authors": [
+    "Guy Romm <guyromm@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}

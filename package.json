@@ -1,0 +1,35 @@
+{
+  "name": "vrealtor",
+  "version": "0.0.0",
+  "description": "",
+  "main": "hapi.js",
+  "dependencies": {
+    "boom": "~2.6.1",
+    "bootstrap": "~3.3.1",
+    "bower": "~1.3.12",
+    "ect": "~0.5.9",
+    "express": "~4.10.4",
+    "express-coffee": "~0.0.9",
+    "good": "~5.0.0",
+    "good-console": "~3.0.1",
+    "grunt-cli": "~0.1.13",
+    "hapi": "~8.0.0",
+    "nano": "~6.0.2",
+    "nodemon": "~1.2.1",
+    "socket.io": "~1.2.1",
+    "swig": "~1.4.2",
+    "yo": "~1.1.2"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com//guyromm/nodejs-experiments.git"
+  },
+  "author": "Guy Romm",
+  "license": "BSD-2-Clause"
+}
